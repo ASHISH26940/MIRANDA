@@ -20,11 +20,11 @@ html,body{
 }
 
 #page1{
-    height:100vh;
+    height:140vh;
     width:100vw;
     background-color: #c4bcb3;
     position: relative;
-
+    overflow:hidden;
 }
 
 #nav{
@@ -184,12 +184,104 @@ html,body{
 
 #page1 h1{
     font-size: 530px;
-    letter-spacing: -5px;
+    letter-spacing: 5px;
     font-weight: 100;
     font-family: canopee;
     background-color: #1c1c19;
     color:#c4bcb3;
-    line-height: 530px;
+    line-height: 500px;
     width:98%;
     margin-left:1%;
 }
+
+#page2{
+    height:170vh;
+    width:100%;
+    background-color: #c4bcb3;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 50px 10px;;
+}
+
+#page2-left{
+    height:100%;
+    width:30%;
+    text-align: center;
+    padding-left:2%;
+    padding-right: 2vw;
+    border-image: 1px solid #000;
+    border-right:1px solid #000;
+    
+}
+
+#page2-left h2{
+    font-size: 13.2vh;
+    font-weight: 200;
+    line-height: 6vw;
+
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2.5vw;
+    padding-right: 1.2vw;
+    font-family: Canopee,sans-serif;
+}
+
+#page2-left h2 span{
+    font-size: 21vh;
+    font-weight: 400;
+    width:100%;
+    letter-spacing: 0.em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2.5vw;
+    padding-right: 1.1vw;
+    font-family: Canopee,sans-serif;
+    font-weight: 400;
+    
+}
+
+#page2-left img{
+    width:100%;
+    object-fit: cover;
+    height: 50%;
+}
+
+#page2-left p{
+    font-size: 2.25vw;
+    line-height: 2.7vw;
+    text-align: left;
+}
+
+
+#page2-right{
+    height:100%;
+    width:60%;
+    padding:0px 50px;
+    
+}
+
+#page2-right img{
+    height:60%;
+    width:100%;
+    object-fit: cover;
+}
+
+#page2-right p{
+    padding-right: 0;
+    font-size: 8.5vw;
+    line-height: 6.6vw;
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2.5vw;
+    padding-right: 1.2vw;
+    font-family: Canopee,sans-serif;
+    font-weight: 400;
+}
+
